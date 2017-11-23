@@ -1,0 +1,38 @@
+.footer .footer {
+	padding: 40px 0;	
+	background: #272727;
+}
+
+.footer .footer p {
+	color: #eee;
+}
+
+.footer .footer h2 {
+	color: #eee;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+
+/*Copyright*/
+.footer .copyright {
+	background: #727376;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer .copyright p {
+	color: #eee;
+}
+
+.footer .copyright a {
+	margin: 0 2px;
+}
+
+
+@media (max-width: 991px) {
+	.footer .copyright,
+	.footer .footer-socials {
+		text-align: left;
+	}
+}

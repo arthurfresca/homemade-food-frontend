@@ -1,0 +1,28 @@
+/*Navbar*/
+.header {
+	z-index: 99;
+	background: #fff;
+	position: relative;
+	border-bottom: solid 2px #eee;
+}
+
+/*Logo*/
+.header .logo img {
+	margin: 20px 0;
+}
+
+@media (min-width: 992px) {
+	.header .logo {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 991px) {
+	.header .logo {
+		float: left;
+	}
+}
+
+
+
